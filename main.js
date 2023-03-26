@@ -59,7 +59,7 @@ $(() => {
     // Get data of coins from api.
     async function loadCoins() {
         try {
-            const result = await getJson("https://api.coingecko.com/api/v3/coins/");
+            const result = await getJson("https://api.coingecko.com/api/v3/coins//");
             coins = result;
             // Happened on the first time page load.
             displayCoins();
